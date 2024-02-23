@@ -19,3 +19,15 @@ print("lista despues de agregar un nuevo elemento",numero)
 # eliminar un elemneto de la lista por valor 
 numero.remove(4)
 print("lista despes de eliminar e numero 4", numero)
+
+# ordenar la lista de forma ascendente 
+numero.sort()
+print("lista ordenada en forma ascendente ", numero)
+
+# revertir el orden de la lista 
+numero.reverse()
+print("lista en oreden descendente", numero)
+
+#calcular la longitud de la lista 
+longitud = len(numero)
+print("longitud de la lista ", longitud)
