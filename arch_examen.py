@@ -6,6 +6,9 @@ def factorial (n):
         return n * factorial(n - 1)
     
 # ejemplo de uso
-numero = 5
+# vamos a intentar pedir un numero al usuario para que le calcule el factiral 
+    
+num = int(input("ingresa un numero para calcularte el factorial \n"))
+numero = num
 resultado = factorial(numero)
 print(f"el factorial de {numero} es: {resultado}")
